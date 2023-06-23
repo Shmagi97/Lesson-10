@@ -2,28 +2,28 @@
   height: 700px;
   background-color: #0a22f4;
   margin-top: 200px;
-  display: flex;
+  padding-top: 150px;
 }
 
 .section1 {
   display: flex;
   width: 80%;
   height: 500px;
-  border: solid;
-  margin: auto auto;
+  /* border: solid; */
+  margin: auto;
 }
 
 .divkont1 {
   width: 50%;
   height: 500px;
-  border: solid red;
+  /* border: solid red; */
   margin: auto;
 }
 
 .divkont2 {
   width: 50%;
   height: 500px;
-  border: solid red;
+  /* border: solid red; */
   margin: auto;
 }
 
@@ -48,4 +48,30 @@
   border-radius: 15px 15px 15px 15px;
   object-fit: cover;
   box-shadow: -15px 15px 10px 0px black;
+}
+.forminput {
+  display: grid;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#inputtextshetyobineba {
+  height: 100px;
+  width: 70%;
+}
+
+.gagzavnabutton {
+  width: 100px;
+  height: 40px;
+  /* border: solid red; */
+  right: 0;
+  border-radius: 15px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
 }
